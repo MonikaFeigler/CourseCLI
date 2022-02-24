@@ -38,6 +38,13 @@
   "configurations": [
     {
       "branchId": 12105,
+      "componentId": "keboola.ex-db-snowflake",
+      "id": "12347447",
+      "path": "extractor/keboola.ex-db-snowflake/demo-snowflake-extractor",
+      "rows": []
+    },
+    {
+      "branchId": 12105,
       "componentId": "keboola.ex-sample-data",
       "id": "12346657",
       "path": "extractor/keboola.ex-sample-data/demo-google-drive",

@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "db": {
+      "port": "443",
+      "schema": "WORKSPACE_12346710",
+      "warehouse": "KEBOOLA_PROD_SMALL",
+      "driver": "snowflake",
+      "host": "keboola.west-europe.azure.snowflakecomputing.com",
+      "user": "KEBOOLA_WORKSPACE_12346710",
+      "database": "KEBOOLA_5881",
+      "#password": "KBC::ProjectSecureKV::eJwB2QAm/2E6Mzp7aToyO3M6MTE2OiLe9QIAqFPqDZ2pG6wpRTylFPeZf1h76JItJJ3cJQQ2KTKWxyKfu+v4I3sdQdJI0Ps9qdH642NhpfldKowYL/fFlHZsGEn8vwtj+ZAFfdh5AuSaY8QNUTGGrlCRm/fF046+I9lMVh30tdSDqILzmP5WFGBPUiI7aTozO3M6MjY6Imdlbi1lbmNyeXB0b3I2MjE3ODA4YmU0Y2M4IjtpOjQ7czozMjoiMzg5YTNlY2MyYTgzNDA0NTk1ZWJkYWY2ZWQ5NDBiNzkiO30aLlcz"
+    }
+  }
+}

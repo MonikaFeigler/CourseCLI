@@ -35,5 +35,25 @@
       "path": "main"
     }
   ],
-  "configurations": []
+  "configurations": [
+    {
+      "branchId": 12105,
+      "componentId": "keboola.ex-sample-data",
+      "id": "12346657",
+      "path": "extractor/keboola.ex-sample-data/demo-google-drive",
+      "rows": []
+    },
+    {
+      "branchId": 12105,
+      "componentId": "keboola.wr-snowflake-blob-storage",
+      "id": "12346705",
+      "path": "writer/keboola.wr-snowflake-blob-storage/demo-snowflake-db",
+      "rows": [
+        {
+          "id": "12346769",
+          "path": "rows/account"
+        }
+      ]
+    }
+  ]
 }

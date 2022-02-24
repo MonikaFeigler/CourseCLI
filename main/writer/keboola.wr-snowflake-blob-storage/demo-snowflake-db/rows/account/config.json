@@ -1,0 +1,70 @@
+{
+  "parameters": {
+    "tableId": "in.c-demo-keboola-ex-google-drive-12346657.account",
+    "dbName": "ACCOUNT",
+    "incremental": true,
+    "primaryKey": [
+      "Id"
+    ],
+    "items": [
+      {
+        "name": "Id",
+        "dbName": "Id",
+        "type": "string",
+        "nullable": false,
+        "default": "",
+        "size": "255"
+      },
+      {
+        "name": "Name",
+        "dbName": "Name",
+        "type": "string",
+        "nullable": false,
+        "default": "",
+        "size": "255"
+      },
+      {
+        "name": "Region",
+        "dbName": "Region",
+        "type": "string",
+        "nullable": false,
+        "default": "",
+        "size": "255"
+      },
+      {
+        "name": "Status",
+        "dbName": "Status",
+        "type": "string",
+        "nullable": false,
+        "default": "",
+        "size": "255"
+      },
+      {
+        "name": "First_Order",
+        "dbName": "First_Order",
+        "type": "date",
+        "nullable": false,
+        "default": "",
+        "size": ""
+      }
+    ]
+  },
+  "storage": {
+    "input": {
+      "tables": [
+        {
+          "source": "in.c-demo-keboola-ex-google-drive-12346657.account",
+          "destination": "in.c-demo-keboola-ex-google-drive-12346657.account.csv",
+          "columns": [
+            "Id",
+            "Name",
+            "Region",
+            "Status",
+            "First_Order"
+          ],
+          "changed_since": "adaptive"
+        }
+      ]
+    }
+  }
+}

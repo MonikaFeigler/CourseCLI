@@ -39,9 +39,14 @@
     {
       "branchId": 12105,
       "componentId": "keboola.ex-db-snowflake",
-      "id": "12347447",
-      "path": "extractor/keboola.ex-db-snowflake/demo-snowflake-extractor",
-      "rows": []
+      "id": "12571759",
+      "path": "extractor/keboola.ex-db-snowflake/demo-snowflake-extractor-001",
+      "rows": [
+        {
+          "id": "75999",
+          "path": "rows/account"
+        }
+      ]
     },
     {
       "branchId": 12105,

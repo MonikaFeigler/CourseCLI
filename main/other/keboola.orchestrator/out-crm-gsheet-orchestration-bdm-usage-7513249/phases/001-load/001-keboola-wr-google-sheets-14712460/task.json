@@ -1,0 +1,9 @@
+{
+  "name": "keboola.wr-google-sheets-14712460",
+  "continueOnFailure": false,
+  "enabled": true,
+  "task": {
+    "mode": "run",
+    "configPath": "writer/keboola.wr-google-sheets/out-crm-gsheet-writer-7513249"
+  }
+}

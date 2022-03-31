@@ -1,0 +1,144 @@
+{
+  "authorization": {
+    "oauth_api": {
+      "id": "14712460",
+      "version": 3
+    }
+  },
+  "parameters": {
+    "tables": [
+      {
+        "action": "update",
+        "enabled": true,
+        "fileId": "1liGkoSKbWXSpWaSg5qHo_sLEmQWEzcCxdoXsd_wTH_U",
+        "id": 56496,
+        "sheetId": 976361506,
+        "sheetTitle": "activity",
+        "tableId": "out.c-crm-wr-7513249.activity",
+        "title": "OUT-CRM"
+      },
+      {
+        "action": "update",
+        "enabled": true,
+        "fileId": "1liGkoSKbWXSpWaSg5qHo_sLEmQWEzcCxdoXsd_wTH_U",
+        "id": 63852,
+        "sheetId": 82085876,
+        "sheetTitle": "company",
+        "tableId": "out.c-crm-wr-7513249.company",
+        "title": "OUT-CRM"
+      },
+      {
+        "action": "update",
+        "enabled": true,
+        "fileId": "1liGkoSKbWXSpWaSg5qHo_sLEmQWEzcCxdoXsd_wTH_U",
+        "id": 8332,
+        "sheetId": 1402129056,
+        "sheetTitle": "contact",
+        "tableId": "out.c-crm-wr-7513249.contact",
+        "title": "OUT-CRM"
+      },
+      {
+        "action": "update",
+        "enabled": true,
+        "fileId": "1liGkoSKbWXSpWaSg5qHo_sLEmQWEzcCxdoXsd_wTH_U",
+        "id": 84187,
+        "sheetId": 326284405,
+        "sheetTitle": "employee",
+        "tableId": "out.c-crm-wr-7513249.employee",
+        "title": "OUT-CRM"
+      },
+      {
+        "action": "update",
+        "enabled": true,
+        "fileId": "1liGkoSKbWXSpWaSg5qHo_sLEmQWEzcCxdoXsd_wTH_U",
+        "id": 9048,
+        "sheetId": 1214766801,
+        "sheetTitle": "opportunity",
+        "tableId": "out.c-crm-wr-7513249.opportunity",
+        "title": "OUT-CRM"
+      },
+      {
+        "action": "update",
+        "enabled": true,
+        "fileId": "1liGkoSKbWXSpWaSg5qHo_sLEmQWEzcCxdoXsd_wTH_U",
+        "id": 60671,
+        "sheetId": 193638373,
+        "sheetTitle": "opportunity_contact",
+        "tableId": "out.c-crm-wr-7513249.opportunity_contact",
+        "title": "OUT-CRM"
+      },
+      {
+        "action": "update",
+        "enabled": true,
+        "fileId": "1liGkoSKbWXSpWaSg5qHo_sLEmQWEzcCxdoXsd_wTH_U",
+        "id": 55157,
+        "sheetId": 914718696,
+        "sheetTitle": "opportunity_snapshot",
+        "tableId": "out.c-crm-wr-7513249.opportunity_snapshot",
+        "title": "OUT-CRM"
+      }
+    ]
+  },
+  "storage": {
+    "input": {
+      "tables": [
+        {
+          "columns": [],
+          "destination": "out.c-crm-wr-7513249.activity.csv",
+          "source": "out.c-crm-wr-7513249.activity",
+          "where_column": "",
+          "where_operator": "eq",
+          "where_values": []
+        },
+        {
+          "columns": [],
+          "destination": "out.c-crm-wr-7513249.company.csv",
+          "source": "out.c-crm-wr-7513249.company",
+          "where_column": "",
+          "where_operator": "eq",
+          "where_values": []
+        },
+        {
+          "columns": [],
+          "destination": "out.c-crm-wr-7513249.contact.csv",
+          "source": "out.c-crm-wr-7513249.contact",
+          "where_column": "",
+          "where_operator": "eq",
+          "where_values": []
+        },
+        {
+          "columns": [],
+          "destination": "out.c-crm-wr-7513249.employee.csv",
+          "source": "out.c-crm-wr-7513249.employee",
+          "where_column": "",
+          "where_operator": "eq",
+          "where_values": []
+        },
+        {
+          "columns": [],
+          "destination": "out.c-crm-wr-7513249.opportunity.csv",
+          "source": "out.c-crm-wr-7513249.opportunity",
+          "where_column": "",
+          "where_operator": "eq",
+          "where_values": []
+        },
+        {
+          "columns": [],
+          "destination": "out.c-crm-wr-7513249.opportunity_contact.csv",
+          "source": "out.c-crm-wr-7513249.opportunity_contact",
+          "where_column": "",
+          "where_operator": "eq",
+          "where_values": []
+        },
+        {
+          "columns": [],
+          "destination": "out.c-crm-wr-7513249.opportunity_snapshot.csv",
+          "source": "out.c-crm-wr-7513249.opportunity_snapshot",
+          "where_column": "",
+          "where_operator": "eq",
+          "where_values": []
+        }
+      ]
+    }
+  }
+}
